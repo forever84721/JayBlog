@@ -76,7 +76,7 @@ nav {
     display: flex;
 }
 
-.navbar {
+.Topbar {
     display: flex;
     align-items: center;
 }
@@ -118,6 +118,37 @@ main {
     overflow-y: auto;
     background-color: rgb(45,45,48);
 }
+
+.ArticleCard {
+    width:900px;
+    color: white;
+    padding: 10px;
+}
+
+    .ArticleCard > .Top {
+        display: flex;
+    }
+
+        .ArticleCard > .Top > .Title {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .ArticleCard > .Top > .PublishTime {
+            margin-left: auto;
+            margin-top: auto;
+            color: rgb(200, 200, 200);
+        }
+
+    .ArticleCard > .Center {
+        margin: 10px 0;
+        color: rgb(200, 200, 200);
+    }
+
+
+
+
+
 
 footer {
     color: white;

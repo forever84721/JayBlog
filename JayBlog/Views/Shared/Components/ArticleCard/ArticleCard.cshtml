@@ -1,0 +1,11 @@
+﻿@model JayBlog.Models.Components.ArticleCardViewModel
+
+<div class="ArticleCard">
+  <div class="Top">
+    <span class="Title">@Model.Title</span>
+    <span class="PublishTime">@Model.PublishTime.ToString("yyyy/MM/dd HH:mm")</span>
+  </div>
+  <div class="Center">
+    <span>@Model.Outline</span>
+  </div>
+</div>

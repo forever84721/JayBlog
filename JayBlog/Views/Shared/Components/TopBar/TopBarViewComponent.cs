@@ -12,7 +12,7 @@ namespace JayBlog.Views.Shared.Components.TopBar
     {
         public IViewComponentResult Invoke()//async Task
         {
-            return View("TopBar", new TopBarViewModel() { A = 1, B = "88" });
+            return View("TopBar", new TopBarViewModel() { A = 123, B = "88" });
         }
     }
 }
